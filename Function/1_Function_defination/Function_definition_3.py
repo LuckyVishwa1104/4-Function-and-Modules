@@ -1,4 +1,4 @@
-# program to print prime no. between specified range using definition.
+# program to print prime no. between specified range using funtion.
 # defining function
 def prime_no():   # function header
     # input the number.

@@ -2,19 +2,19 @@
 # In python, every function is need to be defined, function is defined by "def" keyword.
 # Syntax:
 '''  def function_name():
-   	 statement_1
-   	 statement_2
-   	 statement_3   >>> function_body
-   	 - - - - - 
-   	 statement_n  '''
+   	 	statement_1
+   	 	statement_2
+   	 	statement_3   >>> function_body
+   	 	- - - - - 
+   	 	statement_n  '''
 
 # statements can be anything in python i.e. another program, set of instruction, another function, anything.	  	
 # every function is associated with function name
 # "def" keyword indicate starting of function.
 # (): are neccessory, which indicates statement followed by this are part of function.
 # statement are logically related to each other.
-# function to display message
 
+# function to display message
 # example 1
 def message():
 	print("Hello World !!!")
