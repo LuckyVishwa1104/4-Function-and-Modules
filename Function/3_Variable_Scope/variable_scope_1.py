@@ -1,6 +1,6 @@
 # Example on  Variable Scope 1
-#Global variable - the variables which are accessible throughout the program is known as global variable
-#Local variable - the variable which are declared in function are the local to that function only.
+#Global variable - the variables which are accessible throughout the program are known as global variable
+#Local variable - the variable which are declared in function are the local variable to that function.
 
 # any variable declared in main body are global by default.
 a=77
@@ -24,7 +24,7 @@ def func2():
 	print(d)
 	print(f)
 	def func3():
-		e=890 # local variae of this function
+		e=890 # local variable of this function
 		print(e)
 		# still it can access d, since it act's as global for this function.'
 		print(d)
@@ -39,7 +39,7 @@ print(f)
 aa=7 # global variable for functions onwards
 def func7():
 	# telling that aa is global, taje its global value
-	# the default behaviour of = operator in function is to createba new variable, it always create a local variable.
+	# the default behaviour of = operator in function is to create a new variable, it always create a local variable.***
 	global aa
 	aa=aa+7
 	print(aa)
@@ -60,6 +60,7 @@ def func9():
 func9()
 
 # Important points on global and local variable identification
+
 #1). global value of a variable is the latest value assigned to that variable after use of global keyword in that function only.
 
 #2). first preference is given to local variable, while execution if local variable is present it will get printed instead of global variable.
