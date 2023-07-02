@@ -1,5 +1,5 @@
 # example on global and local variable 1
-# a and r is declared in main hence it is global by default
+# a and r is declared in main hence they are global by default
 a=56
 print(a)
 r=88
