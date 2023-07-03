@@ -1,7 +1,8 @@
 #5). Variable Length argument: these are used when we dont know the no. of argument does the function accept.
 # we can pass n no. of argument, arguments are stored in tuple.
-''' Syntax:  def func(*arg_name):  # * is used to indicate Variable Length argument
-                arg_name=(arg1,arg2,arg3,...)
+''' Syntax: def func(*arg_name):  # * is used to indicate Variable Length argument
+                -----
+                #arg_name=(arg1,arg2,arg3,...)
                 -----
             func(arg1,arg2,arg3,...)  '''
 

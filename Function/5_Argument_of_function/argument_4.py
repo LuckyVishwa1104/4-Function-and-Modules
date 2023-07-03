@@ -1,5 +1,5 @@
 #4). Keyword Argument: these are the argument in which, argument are assigned values in calling part, position of argument does not matter.
-# each argument used in calling part should have to match with argument used in function definition part.
+# each argument used in calling part should have to match with argument name used in function definition part.
 ''' Syntax:  def func(arg1,arg2,..):  
                 -----
             func(arg1=val1,arg2=val2,...)  '''
@@ -34,10 +34,11 @@ def fun3(honour1,honour2,honour3):
 j,k,l="GOLD","SILVER","BRONZE"
 fun3(honour3=l,honour2=k,honour1=j)
 
-# we use required and keyword argument together, but keyword argument always should have to follow required argument.
+# we can use required and keyword argument together, but keyword argument always should have to follow required argument.
 def fun(a,c,d,b):
     print(a)
     print(b)    
     print(d)
     print(c)
 fun(89,59,d=398,b=222)
+ # we cant use default and keyword argument together in single function

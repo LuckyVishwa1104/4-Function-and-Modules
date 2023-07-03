@@ -13,7 +13,7 @@ fun1(44,77) # a is assigned 44 and b is 77
 fun1(30) # first argument value is updated
 
 # example 2
-# two different type of argument cant be used at same time, function accepts onlt onr type of argument
+# two different type of argument cant be used at same time, function accepts only one type of argument
 def fun2(p=10,r=9):
     print((p*2,r*2))
     print(bool(p),bool(r))
@@ -32,13 +32,14 @@ def fun3(p=3,q=4,r=5):
 fun3()
 fun3(6,8,10)
 
-# we can use required and default argument together, but default argument argument must follow required argument.
+# we can use required and default argument together, but default argument must follow required argument. i.e. required argument must come before default argument
 def fun4(a,b,c=56,d=50):
     print(a)
     print(b)
     print(c)
     print(d)
 fun4(67,90,888)
+
 # we can use default with variable length argument.
 def f(s=90,*ss):
     print(ss)

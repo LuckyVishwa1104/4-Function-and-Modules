@@ -1,15 +1,15 @@
-# Argument of Function: these are values passed to function, which are used as variable in func body.
-# arguments are declared in func defination and values are passed in func calling, corres. value get assigned to corres. argument.
+# Argument of Function: these are values passed to function, which are used as variable in function body.
+# arguments are declared in function defination and values are passed in function calling, corresponding value get assigned to corresponding argument.
 
-''' Syntax: def func(arg1,arg2,...):
+''' Syntax: def func(arg1,arg2,...,argn):
 	                   --- func body
-	             func(val1,val2,...)  '''
+	             func(val1,val2,...,valn)  '''
 
 # exampels 1
 def func1(arg):
 	print(arg)
 func1("Lucky")
-# "Lucky" value is assign to arg, and it is used in func
+# "Lucky" value is beubg assigned to arg, and it is used in function
 
 # example 2
 def func2(n,m):

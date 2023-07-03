@@ -1,4 +1,5 @@
 # Types of Argument- there are four types of argument.
+
 #1). Required argument: these are necessary argument for function execution, they need to be passed in correct order and number.
 # the no. of argument and the no. of values should be exactly equal, if any value is missing then it will throw missing argument error.
 '''syntax: def func(arg1,arg2,...):
@@ -17,7 +18,7 @@ fun1(55,89)
 def fun2(h,j):
     print("name is {}, and age is {}.".format(h,j))
     # Lucky is assigned to h and 20 is assigned to age.
-fun2("Lucky",20)
+fun2("Lucky",21)
 
 #example 3
 i1,j1=5,8
