@@ -1,11 +1,12 @@
-# Lambda Function: it is a un-named or anonymous functoin.
+# Lambda Function: lambda function is a simple function with several arguments and in the body it has expression.
+# it is a un-named or anonymous functoin.
 # it is defined in single line and using lambda keyword.
 # Syntax:  lambda arguments : expression
 
 # examples 1
 # a lambda function without any argument
 a = lambda : print("Hello You !")
-# to execute a lambda function we need to call it, to call a lambda function "function_name(arguments)"
+# to execute a lambda function we need to call it, to call a lambda function use "function_name(arguments)"
 a()
 # value of lambda function is assigned to variable s
 s = lambda : "hello"
@@ -33,7 +34,7 @@ print("Square of",w,"is",sqr(w))
 def fun(n):
     # returns lambda function as a value
     return lambda a:a*n
-t=fun(2)
+t=fun(2)  # t=lambda a:a*2
 # value is passed as argument to lambda function
 print(t(11))
 
