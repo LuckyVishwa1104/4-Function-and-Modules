@@ -7,13 +7,13 @@ add(15,25)
 add(-8,8)
 
 # importing the second module
-from from_imoprt_2 import msg
+from from_import_2 import msg
 # using the msg function of from_port_2 module
 msg("Lucky")
 msg("Nikhil")
 # we cant use sqr_cub function of from_import_2 since it had't been imported
 # to use it we need to import it 
-from from_imoprt_2 import sqr_cub
+from from_import_2 import sqr_cub
 sqr_cub(6)
 sqr_cub(7)
 
@@ -21,7 +21,7 @@ sqr_cub(7)
 # only pat function of import_3
 from from_import_3 import pat
 pat(0)
-# we can also imort every functoin of module
+# we can also imort every functoin of module by using *
 from from_import_3 import *
 pat(0)
 for_loop()

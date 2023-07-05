@@ -1,4 +1,4 @@
-# this is a third module of name as that of file name
+# this is a third module of name as that of file name i.e. from_import_3
 # it contains two functions for displaying star pattern
 
 # functioin 1st, to display star pattern in asscending order using recursive function
