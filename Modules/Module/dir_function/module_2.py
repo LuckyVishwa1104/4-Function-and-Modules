@@ -1,4 +1,4 @@
-# this is another module named as import_2 it has two functions
+# this is another module named as moddule_2 it has two functions
 
 # function for displaying message
 def msg(name):
