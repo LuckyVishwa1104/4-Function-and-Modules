@@ -1,4 +1,4 @@
-# this a module of name module_4, as the file name
+# this a module of name module_4, as the file name is module_4
 
 # it is importing module_3
 import module_3

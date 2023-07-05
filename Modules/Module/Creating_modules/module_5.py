@@ -9,9 +9,9 @@ def msg():
     print("heool")
 
 # we can import the modules defined in same folders only.
-# importing thr modules defined in some other folder will raise the module not found error.
+# importing the modules defined in some other folder will raise the module not found error.
 
-# impoting modul3
+# impoting module_3
 import module_3
 module_3.greet("Arthor Fleck")
 module_3.quote()
@@ -20,6 +20,7 @@ module_3.quote()
 import module_2
 print(module_2.fac(7))
 
-# importing module 1
-import module_1
-print(module_1.add(900,1200))
+#importing module_3
+import module_3
+module_3.greet("luvky")
+module_3.quote()

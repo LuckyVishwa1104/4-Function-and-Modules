@@ -1,6 +1,6 @@
 # this is another module of name module_3 and it is importing module_2
 import module_2
-# if we import any module using import satement, then entire program is get executed, to avoid this therer are other methods of importing discussed in imorting section.
+# if we import any module using import satement, then entire program is get executed, to avoid this there are other methods of importing discussed in imorting section.
 # it is using the fac functoin of module_2
 print(module_2.fac(5))
 print(module_2.fac(10))
