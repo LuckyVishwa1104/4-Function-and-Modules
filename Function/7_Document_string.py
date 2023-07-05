@@ -28,7 +28,7 @@ add(10,20)
 
 # example 3
 def sum(n):
-    """this function sum of n numbers and return the sum
+    """this function does sum of n numbers and return the sum
     
     parameters: n (int) - sum upto this number
     
