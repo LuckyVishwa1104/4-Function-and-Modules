@@ -40,3 +40,7 @@ print(f"variable of module5 are {v1} and {v2}")
 # we can rename a single module as many times 
 import import_5 as new_module
 print(new_module.sum(10))
+print(new_module.a)
+print(new_module.b)
+import import_5 as new_module_2
+print(new_module_2.sum(20))

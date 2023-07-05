@@ -1,5 +1,5 @@
 # this is a third module of name as that of file name
-# it contains two functions for displaying star pattern
+# it contains function for displaying star pattern
 
 # functioin 1st, to display star pattern in asscending order using recursive function
 n=int(input("Enter no. :"))

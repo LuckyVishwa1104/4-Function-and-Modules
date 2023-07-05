@@ -1,7 +1,7 @@
-# importing modules: to use a particular module we need to import it, importing a module is just fetching the module in current program and using its function.
+# importing modules: to use a particular module we need to import it, importing a module is just fetching the module in current program and using its function and variable
 # there are different ways to import the modules.
 
-#1. import statement: using import keyword we can use all the functoins and variables of modules.
+#1. import statement: using import keyword we can use all the functoins and variables of modules at a time, there is no need to import different functions again and again.
 '''Syntax:  import module_name
             module_name.function_name(arguments,...) '''
 # import statement is prefered for importing standard modules, since they are only meant for importing purpose
