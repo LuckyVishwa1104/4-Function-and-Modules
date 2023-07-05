@@ -21,7 +21,7 @@ sqr_cub(7)
 # only pat function of import_3
 from from_import_3 import pat
 pat(0)
-# we can also imort every functoin of module by using *
+# we can also import every functoin of module by using *
 from from_import_3 import *
 pat(0)
 for_loop()
