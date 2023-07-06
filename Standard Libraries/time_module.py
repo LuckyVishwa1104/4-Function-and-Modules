@@ -1,11 +1,12 @@
-# Python Standard Library: Python's standard library is very extensive offering a wide range of facilities.
+# Python Standard Library: Python's standard library is very extensive offering a wide range of functionality.
 # Standard libraries are built in modules which contains standard functionalities.
-# The libraries afre built for making programming easy.
+# The libraries are built for making programming easy.
 
-# there are around 200 python standard libraies, we can get list using help function
+# there are around 200 python standard libraies, we can get listed using help function
 help('modules')
 
 '''some of the commonly used libraries are time, sys, os, math, email, random, string, urllib, re, cgi, socket.'''
+
 # 1. time - this module contain function related to time, it is used to handle the time related task.
 import time
 

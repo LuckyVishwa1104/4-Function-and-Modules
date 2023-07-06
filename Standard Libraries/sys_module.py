@@ -1,8 +1,8 @@
-#2. sys - it provides varius functions and variables that are used to manipulate different parts of python run-time environment.
-# it generally deal with system operations/information
+#2. sys - it provides various functions and variables that are used to manipulate different parts of python run-time environment.
+# it generally deal with system operations/information i.e. system related to python not the operaring system.
 import sys
 
-# version - it return the versionnof pyhton interpreter
+# version - it return the version of pyhton interpreter
 print(sys.version)
 print(sys.executable)
 print(sys.platform)
